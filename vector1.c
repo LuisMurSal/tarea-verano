@@ -2,7 +2,11 @@
 *explicacion: Dado un numero N pasarlo a un vector separando sus dijitos y crear una funcion que recibira como parametros una posicion y un valor de suma, este suma sera recorrimiento.
 //Condiciones:
 --rango maximo de 8 numeros
---No aceptar numeros negativos*/
+--No aceptar numeros negativos
+//Incumplimiento:
+--no funciona con un vector de 10 digitos en adelante
+--suma mal al llegar a un numero de 2 dijitos
+*/
 #include <stdio.h>
 
 // Pasar de numero a vector
