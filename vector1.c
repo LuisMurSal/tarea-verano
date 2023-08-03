@@ -6,6 +6,7 @@
 //Incumplimiento:
 --no funciona con un vector de 10 digitos en adelante
 --suma mal al llegar a un numero de 2 dijitos
+--
 */
 #include <stdio.h>
 
