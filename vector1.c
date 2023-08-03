@@ -1,3 +1,8 @@
+/*Name: Luis Angel Murillo Salinas
+*explicacion: Dado un numero N pasarlo a un vector separando sus dijitos y crear una funcion que recibira como parametros una posicion y un valor de suma, este suma sera recorrimiento.
+//Condiciones:
+--rango maximo de 8 numeros
+--No aceptar numeros negativos*/
 #include <stdio.h>
 
 // Pasar de numero a vector
@@ -51,7 +56,7 @@ int main() {
     int vector[20]; 
     int longitud = pasar_a_vector(num, vector);
 
-    printf("Numero original: %d => [", num);
+    printf("Numero original(numero maximo de 8 digitos): %d => [", num);
     for (int i = 0; i < longitud; i++) {
         printf("%d", vector[i]);
         if (i != longitud - 1) {
