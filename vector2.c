@@ -1,3 +1,9 @@
+/*Name: Luis Angel Murillo Salinas
+*explicacion: Buscar la suma de 2 componentes que den como resultado el numero N
+//Condiciones:
+--No aceptar numeros con punto decimal
+--No aceptar numeros negativos
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
